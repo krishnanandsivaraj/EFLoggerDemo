@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="testModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.1" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="testModelStoreContainer" />
+  <!--Errors Found During Generation:
+      warning 6013: The table/view 'test.students' does not have a primary key defined and no valid primary key could be inferred. This table/view has been excluded. To use the entity, you will need to review your schema, add the correct keys, and uncomment it.
+      
+      <EntityType Name="students">
+        <Property Name="EnrolId" Type="int" />
+        <Property Name="StudentName" Type="varchar" MaxLength="20" />
+        <Property Name="Grade" Type="varchar" MaxLength="20" />
+        <Property Name="StudentDescription" Type="varchar" MaxLength="20" />
+        <Property Name="JoiningDate" Type="date" />
+      </EntityType>-->
+</Schema>

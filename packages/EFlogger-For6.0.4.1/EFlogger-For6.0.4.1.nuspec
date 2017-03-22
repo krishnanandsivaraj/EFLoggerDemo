@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>EFlogger-For6</id>
+    <version>0.4.1</version>
+    <title>EFlogger 6</title>
+    <authors>Stanislav Glushak st.glushak [at] gmail.com</authors>
+    <owners>Stanislav Glushak st.glushak [at] gmail.com</owners>
+    <licenseUrl>http://eflogger.codeplex.com/license</licenseUrl>
+    <projectUrl>http://eflogger.codeplex.com/</projectUrl>
+    <iconUrl>https://zima106d.storage.yandex.net/rdisk/1039cb2f802af5cd8263a6142aff4e242958e6abbefd7bb12587acf368cbb6f6/inf/RiBt73btqB_lgyYBRflYfQ13ESd1Ghxm5lB5PwK1Y_tR0lcRanH5OFNnaB8CrBBrOrLcBEP7mtBilKErZxNFcQ==?uid=0&amp;filename=favicon.ico&amp;disposition=inline&amp;hash=&amp;limit=0&amp;content_type=image%2Fjpeg&amp;tknv=v2&amp;rtoken=876553fcd08c3e4d9acc94b407c85688&amp;force_default=no&amp;ycrid=na-f59aa5beb47fdcd13bf2e86f69652ba5-downloader13h</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Free and simple profiler and logger for Entity Framework</description>
+    <summary>Free and simple profiler and logger for Entity Framework</summary>
+    <releaseNotes>Updated log functionality</releaseNotes>
+    <copyright>Stanislav Glushak; st.glushak@gmail.com</copyright>
+    <language>en-US</language>
+    <tags>Entity Framework Profiler Logger</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="EntityFramework" version="6.0.1" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>
